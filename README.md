@@ -1,6 +1,6 @@
 ## Ancient Character Glyph Generation.
 
-![image](https://github.com/CJHGray/ACGG/picture/Figure_framework.pdf)
+![image](https://github.com/CJHGray/ACGG/blob/main/picture/Figure_framework.pdf)
 
 ## Data preparation
 
