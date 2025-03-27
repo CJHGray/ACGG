@@ -1,8 +1,6 @@
 accelerate==0.23.0
 diffusers==0.22.0
 etcd==2.0.8
-fonttools==4.47.2
-gradio==4.19.0
 matplotlib==3.8.2
 numpy==1.26.4
 opencv_python==4.9.0.80
