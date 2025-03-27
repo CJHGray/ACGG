@@ -74,3 +74,8 @@ tensorboard --logdir ./logs
 python eval_diffusion.py
 ```
 
+## Evaluate the generated results
+```bash
+python metric.py
+```
+
