@@ -76,6 +76,10 @@ python eval_diffusion.py
 
 ## Evaluate the generated results
 ```bash
+generated_img_dir = './ACGG-result/result'
+real_img_dir = './font-607/test/zhuanshu'
+```
+```bash
 python metrics.py
 ```
 
