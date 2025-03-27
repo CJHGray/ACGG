@@ -38,19 +38,6 @@ Your_dataroot/
 
 ```
 
-### You also need to modify the following path to configs.yaml.
-```yaml
-data:
-    train_data_dir: '/Your_dataroot/train/' # path to directory of train data
-    test_data_dir: '/Your_dataroot/test/'   # path to directory of test data
-    test_save_dir: 'Your_project_path/OBS_Diffusion/result' # path to directory of test output
-    val_save_dir: 'Your_project_path/OBS_Diffusion/validation/'    # path to directory of validation during training
-    tensorboard: 'Your_project_path/OBS_Diffusion/logs' # path to directory of training information
-
-training:
-    resume: '/Your_save_root/diffusion_model'  # path to pretrained model
-```
-
 ## Installation
 ```bash
 conda create -n ACGG python=3.9
