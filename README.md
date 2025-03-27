@@ -1,28 +1,4 @@
-<p align="center">
-    <img src="https://s2.loli.net/2024/03/19/JnbZmeh18VsqkxF.png" width="250" style="margin-bottom: 0.2;"/>
-<p>
-
-<h2 align="center"> <a href="https://arxiv.org/abs/2406.00684">OBSD: Deciphering Oracle Bone Language with Diffusion Models </a></h2>
-<h4 align="center">Haisu Guan, Huanxin Yang, Xinyu Wang, Shengwei Han, Yongge Liu, Lianwen Jin, Xiang Bai, Yuliang Liu </h4>
-
-<h5 align="center">
-
-[![arXiv](https://img.shields.io/badge/Arxiv-2406.00684-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2406.00684) 
-[![Demo](https://img.shields.io/badge/Demo-blue)](http://vlrlabmonkey.xyz:7680/OBSD)
-</h5>
-
-
-## News 
-* ```2024.8.14 ``` 🚀 OBSD has been selected as the ACL 2024 Best Paper.
-* ```2024.7.15 ``` 🚀 OBSD has been selected as the ACL 2024 Oral.
-* ```2024.5.16 ``` 🚀 OBSD is accepted by ACL 2024 Main. 
-* ```2024.2.15 ``` 🚀 Sourced code for OBSD is released.
-
-## Oracle Bone Script Decipher.
-
-### Welcome to OBSD. [Paper](https://arxiv.org/abs/2406.00684) has been published, and we show the [Demo](http://vlrlabmonkey.xyz:7680/OBSD/).<br /> The dataset is available [here](https://github.com/RomanticGodVAN/character-Evolution-Dataset).<br /> 
-In [data/modern_kanji.zip](./data/modern_kanji.zip), we also provide images of modern Chinese characters corresponding to Oracle Bone Script, and you can run the [data/process.py](./data/process.py) to process the data if you wish to use your own data.
-
+## Ancient Character Glyph Generation.
 
 ## Data preparation
 
