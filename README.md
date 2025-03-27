@@ -3,8 +3,7 @@
 ![image](https://github.com/CJHGray/ACGG/blob/main/picture/framework.png)
 
 ## Data preparation
-
-### You can arbitrarily divide the training and test sets from the dataset and place them in the following format. The image names in the input folder and the target folder need to correspond one to one. The input folder stores OBS images, and the target folder stores modern Chinese character images.
+You can arbitrarily divide the training and test sets from the dataset and place them in the following format. The image names in the input folder and the target folder need to correspond one to one. The input folder stores OBS images, and the target folder stores modern Chinese character images.
 ```plaintext
 Your_dataroot/
 ├── train/  (training set)
