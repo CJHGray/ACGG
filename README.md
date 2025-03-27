@@ -61,7 +61,7 @@ pip install -r requirements.txt
 
 ## Train
 ```bash
-CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 python -m torch.distributed.run --nproc_per_node=8 --nnodes=1 --node_rank=0 --master_addr=localhost --master_port=1234 train_diffusion.py
+python train_diffusion.py
 ```
 
 ### You can monitor the training process.
@@ -71,6 +71,6 @@ tensorboard --logdir ./logs
 
 ## Test
 ```bash
-CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 python -m torch.distributed.run --nproc_per_node=8 --nnodes=1 --node_rank=0 --master_addr=localhost --master_port=1234 eval_diffusion.py
+python eval_diffusion.py
 ```
 
