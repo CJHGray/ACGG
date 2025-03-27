@@ -36,6 +36,7 @@ font-607/
 │       └── 3.png
 
 ```
+Modify the data section in dataset.py to meet the task of generating images of different fonts.
 
 ## Installation
 ```bash
