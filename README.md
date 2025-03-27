@@ -51,22 +51,15 @@ training:
     resume: '/Your_save_root/diffusion_model'  # path to pretrained model
 ```
 
-## Train
-
-### Environment Configuration
+## Installation
 ```bash
-git clone https://github.com/guanhaisu/OBSD.git
-cd OBS_Diffusion
-```
-```bash
-conda create -n OBSD python=3.9
-conda activate OBSD
+conda create -n ACGG python=3.9
+conda activate ACGG
 conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia
 pip install -r requirements.txt
 ```
 
-
-## Start training
+## Train
 ```bash
 CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 python -m torch.distributed.run --nproc_per_node=8 --nnodes=1 --node_rank=0 --master_addr=localhost --master_port=1234 train_diffusion.py
 ```
@@ -80,8 +73,4 @@ tensorboard --logdir ./logs
 ```bash
 CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 python -m torch.distributed.run --nproc_per_node=8 --nnodes=1 --node_rank=0 --master_addr=localhost --master_port=1234 eval_diffusion.py
 ```
-### If you want to refine the generated character results, you can run the following script. Also be careful to change your file paths.
-```bash
-CUDA_VISIBLE_DEVICES=0 python refine.py
-```
-You can find the FontDiffuser weights here, [GoogleDrive](https://drive.google.com/drive/folders/1kRwi5sfHn6oufydDmd-7X9pPFDZzFjkk?usp=drive_link). 
+
