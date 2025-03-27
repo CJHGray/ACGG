@@ -8,24 +8,33 @@
 ```plaintext
 Your_dataroot/
 ├── train/  (training set)
-│   ├── input/
-│   │   ├── train_安_1.png (OBS image)
-│   │   ├── train_安_2.png 
-│   │   ├── train_北_1.png
-│   │   └── train_北_2.png
-│   └── target/
-│       ├── train_安_1.png (Modern Chinese Character image)
-│       ├── train_安_2.png 
-│       ├── train_北_1.png 
-│       └── train_北_2.png 
-│
+│   ├── jiagu/
+│   │   ├── 1.png
+│   │   ├── 2.png 
+│   │   └── 3.png
+│   └── jinwen/
+│   │   ├── 1.png
+│   │   ├── 2.png 
+│   │   └── 3.png
+│   │   ...
+│   └── kaishu/
+│       ├── 1.png
+│       ├── 2.png 
+│       └── 3.png
 └── test/   (test set)
-    ├── input/
-    │   ├── test_1.png  (OBS image)
-    │   └── test_2.png
-    └── target/
-        ├── test_1.png  (Modern Chinese Character image)
-        └── test_2.png
+│   ├── jiagu/
+│   │   ├── 1.png
+│   │   ├── 2.png 
+│   │   └── 3.png
+│   └── jinwen/
+│   │   ├── 1.png
+│   │   ├── 2.png 
+│   │   └── 3.png
+│   │   ...
+│   └── kaishu/
+│       ├── 1.png
+│       ├── 2.png 
+│       └── 3.png
 
 ```
 
