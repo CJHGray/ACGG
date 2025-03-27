@@ -61,7 +61,7 @@ python eval_diffusion.py
 ```
 
 ## Evaluate the generated results
-### Modify this part of the metrics.py to compare the generated characters with the real character images.
+Modify this part of the metrics.py to compare the generated characters with the real character images.
 ```bash
 generated_img_dir = './ACGG-result/result'
 real_img_dir = './font-607/test/zhuanshu'
